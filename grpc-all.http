@@ -1,0 +1,13 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+### CreateMember
+GRPC localhost:9090/MemberService/CreateMember
+
+{
+  "email": "tes2t25s2@example.com",
+  "password": "1234",
+  "name": "Test User"
+}
