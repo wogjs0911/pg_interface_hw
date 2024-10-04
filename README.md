@@ -1,3 +1,7 @@
+<style type="text/css">
+   .jua {font-family:'BM JUA','배달의민족 주아',sans-serif;}
+   .hana{font-family:'BM HANNA','배달의민족 한나', sans-serif; }
+</style>
 # wanted-preonboarding-challenge-backend-25
 원티드 프리온보딩 백엔드 챌린지 사전과제
 
