@@ -1,9 +1,7 @@
-<style type="text/css">
-   .jua {font-family:'BM JUA','배달의민족 주아',sans-serif;}
-   .hana{font-family:'BM HANNA','배달의민족 한나', sans-serif; }
-</style>
 # wanted-preonboarding-challenge-backend-25
 원티드 프리온보딩 백엔드 챌린지 사전과제
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.css" rel="stylesheet">
 
 ## 프로젝트 필수 패키지 및 버전 정보
 ### 버전 정보
