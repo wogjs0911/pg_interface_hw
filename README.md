@@ -37,6 +37,10 @@
 - [ ] 설계 도면에 맞게 프로젝트 구조 생성
 - [ ] 설계 도면에 맞게 src/main/resources/initdb/create_schema.sql 테이블 정의 및 수정
 - [ ] PG사 API 구현
+  - 결제 요청 API
+  - 결제 승인 API
+  - 결제 취소 API
+  - 결제 정산 API
 - [ ] PG사 통합 API 구현
 
 ## 과제3 - 비교해보기
