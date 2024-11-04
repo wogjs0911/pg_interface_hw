@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   application:
     name: "clone-one-port"
   thymeleaf:
@@ -13,10 +15,10 @@ spring:
     activate:
       on-profile: dev
   datasource:
-    url: jdbc:mysql://localhost:13306/wanted_preonboarding?serverTimezone=UTC&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/wanted_preonboarding?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8
     username: wanted
     password: backend
-    driver-class-name: com.mysql.cj.jdbc.Driver
   # JPA 설정
   jpa:
     hibernate:
